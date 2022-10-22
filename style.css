@@ -28,7 +28,7 @@ header {
 
 .logo-text {
   font-family: "another_day_in_paradiseRg";
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 5vw;
   padding: 10px 0;
   text-align: center;
@@ -67,19 +67,22 @@ h1 {
 }
 
 .form-field {
-  margin: 20px 50px 20px 40px;
+  margin: 5px 50px 10px 40px;
 }
 
 label {
-  display: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
 }
 
 input {
   background-color: #fff;
   border: 1px solid #d8d8d8;
-  padding: 24px 10px 12px;
+  padding: 7px;
   width: 200px;
   font-size: 1rem;
+  border-radius: 5px;
   display: block;
 }
 
@@ -87,4 +90,20 @@ input {
 .contact-container,
 .pw-container {
   display: flex;
+}
+
+.submit-btn {
+  margin-left: 40px;
+  position: relative;
+  top: 70px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(38, 98, 29);
+  transition: 0.3s all ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: rgb(214, 146, 18);
 }
