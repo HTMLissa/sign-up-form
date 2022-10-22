@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "retro_gamingregular";
-  src: url("/Fonts/retro_gaming-webfont.woff2") format("woff2"),
-    url("Fonts/retro_gaming-webfont.woff") format("woff");
+  font-family: "another_day_in_paradiseRg";
+  src: url("Fonts/another_day_in_paradise-webfont.woff2") format("woff2"),
+    url("Fonts/another_day_in_paradise-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,19 +20,19 @@ header {
 }
 
 .logo-container {
-  background-image: url(images/gameboy.jpg);
+  background-image: url(images/palms.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
 .logo-text {
-  font-family: "retro_gamingregular";
-  text-transform: uppercase;
+  font-family: "another_day_in_paradiseRg";
+  letter-spacing: 3px;
   font-size: 4vw;
   padding: 20px 0;
   text-align: center;
-  background-color: rgba(40, 138, 50, 0.633);
+  background-color: rgba(236, 236, 236, 0.633);
   position: absolute;
   top: 100px;
   width: 100%;
