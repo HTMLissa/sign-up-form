@@ -24,6 +24,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .logo-text {
@@ -36,6 +39,15 @@ header {
   position: absolute;
   top: 100px;
   width: 100%;
+}
+
+.credit {
+  color: grey;
+  font-size: 0.5rem;
+}
+
+.credit a {
+  color: grey;
 }
 
 main {
