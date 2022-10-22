@@ -16,7 +16,7 @@ body {
 
 header {
   position: relative;
-  flex: 1 1 auto;
+  flex-basis: 33.33%;
 }
 
 .logo-container {
@@ -29,15 +29,62 @@ header {
 .logo-text {
   font-family: "another_day_in_paradiseRg";
   letter-spacing: 3px;
-  font-size: 4vw;
-  padding: 20px 0;
+  font-size: 5vw;
+  padding: 10px 0;
   text-align: center;
-  background-color: rgba(236, 236, 236, 0.633);
+  background-color: #ecedef;
   position: absolute;
   top: 100px;
   width: 100%;
 }
 
 main {
-  flex: 2 1 auto;
+  flex-basis: 66.66%;
+  background-color: #ecedef;
+}
+
+p:first-child {
+  padding-top: 60px;
+}
+
+.paragraphs-container p {
+  display: block;
+  line-height: 1.3rem;
+  padding-left: 40px;
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.form-container {
+  background-color: white;
+  margin-top: 25px;
+}
+
+h1 {
+  padding-left: 40px;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+.form-field {
+  margin: 20px 50px 20px 40px;
+}
+
+label {
+  display: none;
+}
+
+input {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding: 24px 10px 12px;
+  width: 200px;
+  font-size: 1rem;
+  display: block;
+}
+
+.name-container,
+.contact-container,
+.pw-container {
+  display: flex;
 }
