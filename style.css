@@ -107,3 +107,14 @@ input {
 .submit-btn:hover {
   background-color: rgb(214, 146, 18);
 }
+
+#or-sign-in {
+  margin-top: 90px;
+  margin-left: 40px;
+  font-size: 0.9rem;
+}
+
+#or-sign-in a {
+  text-decoration: none;
+  color: rgb(38, 98, 29);
+}
