@@ -1,3 +1,43 @@
+@font-face {
+  font-family: "retro_gamingregular";
+  src: url("/Fonts/retro_gaming-webfont.woff2") format("woff2"),
+    url("Fonts/retro_gaming-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   font-family: "Signika Negative", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+header {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.logo-container {
+  background-image: url(images/gameboy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo-text {
+  font-family: "retro_gamingregular";
+  text-transform: uppercase;
+  font-size: 4vw;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgba(40, 138, 50, 0.633);
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+main {
+  flex: 2 1 auto;
 }
