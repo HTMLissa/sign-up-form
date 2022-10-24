@@ -99,6 +99,12 @@ input {
   display: block;
 }
 
+input:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 140, 255);
+  box-shadow: 0 0 3px #719ece;
+}
+
 .name-container,
 .contact-container,
 .pw-container {
