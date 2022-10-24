@@ -180,3 +180,28 @@ p {
   left: -2px;
   content: "\2715";
 }
+
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+    background-color: #ecedef;
+  }
+
+  .name-container,
+  .contact-container,
+  .pw-container {
+    flex-direction: column;
+  }
+
+  p:first-child {
+    padding-top: 20px;
+  }
+
+  .paragraphs-container p {
+    font-size: 1rem;
+  }
+
+  input {
+    width: 90%;
+  }
+}
