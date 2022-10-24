@@ -1,5 +1,5 @@
 let pwInput = document.querySelector("#pw");
-// let pwConfirm = document.querySelector("#confirm-pw");
+let pwConfirm = document.querySelector("#confirm-pw");
 let letter = document.querySelector("#letter");
 let capital = document.querySelector("#capital");
 let number = document.querySelector("#number");
@@ -67,5 +67,16 @@ function validateLength() {
   } else {
     length.classList.remove("valid");
     length.classList.add("invalid");
+  }
+}
+
+// Function to check whether both passwords are identical
+function confirmPassword() {
+  if (pwInput.value != pwConfirm.value) {
+    alert("Passwords do not match");
+  } else if (pwInput.value == "" || pwConfirm.value == "") {
+    alert("Please fill out both password fields");
+  } else {
+    alert("Passwords match");
   }
 }
