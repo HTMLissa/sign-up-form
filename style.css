@@ -141,6 +141,16 @@ input:focus {
   color: rgb(38, 98, 29);
 }
 
+input[type="password"]:focus:invalid {
+  border: 1px solid red;
+  box-shadow: 0 0 3px red;
+}
+
+input[type="password"]:focus:valid {
+  border: 1px solid rgb(38, 98, 29);
+  box-shadow: 0 0 3px rgb(78, 143, 69);
+}
+
 #message {
   display: none;
   margin-left: 40px;
