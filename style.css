@@ -21,7 +21,7 @@ header {
 }
 
 .logo-container {
-  background-image: url(Images/palms.JPG);
+  background-image: url(Images/palms.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
